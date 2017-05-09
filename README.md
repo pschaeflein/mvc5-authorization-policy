@@ -46,8 +46,7 @@ public partial class Startup
                                            .AddRequirements(new LocalIssuerRequirement())
                                            .Build());
 
-  app.UseMVC5AuthZPolicy(AuthorizationService.Create(options));
-
+  app.UseMVC5AuthZPolicy(options); //You may also pass a Func<IAuthorizationService> to use as a factory, this is required if you want to inject requirements handlers
   // additional setup
 }
 ```
