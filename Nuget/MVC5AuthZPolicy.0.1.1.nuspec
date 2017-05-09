@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>MVC5AuthZPolicy</id>
+        <version>0.1.1</version>
+        <title>MVC5 Authorization Policy</title>
+        <authors>Paul Schaeflein</authors>
+        <owners>Paul Schaeflein</owners>
+        <licenseUrl>https://github.com/pschaeflein/mvc5-authorization-policy/blob/master/LICENSE</licenseUrl>
+        <projectUrl>http://www.schaeflein.net/mvc5-authorization-policy-project-policy-based-authorization-for-mvc5-asp-net-4-6/</projectUrl>
+        <iconUrl>http://www.schaeflein.net/content/images/2016/02/SpeakerCard.jpg</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Authorization concepts from ASP.NET Core back-ported to ASP.NET 4.5.2 / MVC 5</description>
+        <releaseNotes>Initial release of the package.</releaseNotes>
+        <copyright>Copyright 2017</copyright>
+        <tags>asp.net mvc authorization policy</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5.2">
+                <dependency id="Microsoft.AspNet.Mvc" version="5.0.0" />
+                <dependency id="Microsoft.Owin" version="3.0.1" />
+                <dependency id="Microsoft.Owin.Host.SystemWeb" version="3.0.1" />
+                <dependency id="Owin" version="1.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\MVC5AuthZPolicy\bin\Release\Schaeflein.Community.MVC5AuthZPolicy.dll" target="lib\net452\Schaeflein.Community.MVC5AuthZPolicy.dll" />
+        <file src="..\MVC5AuthZPolicy\bin\Release\Schaeflein.Community.MVC5AuthZPolicy.pdb" target="lib\net452\Schaeflein.Community.MVC5AuthZPolicy.pdb" />
+    </files>
+</package>

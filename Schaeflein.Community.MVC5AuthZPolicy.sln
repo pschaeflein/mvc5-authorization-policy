@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC5AuthZPolicy", "MVC5AuthZPolicy\MVC5AuthZPolicy.csproj", "{1F98195D-FA40-4E43-AB6A-0EA1F92A705E}"
 EndProject
@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{122EF8E7-F
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCSampleNinject", "MVCSampleNinject\MVCSampleNinject.csproj", "{193904E3-A206-4861-BCD3-E23BFBF5FE1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{63492226-764C-46C3-9402-57A0B15E7EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63492226-764C-46C3-9402-57A0B15E7EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63492226-764C-46C3-9402-57A0B15E7EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193904E3-A206-4861-BCD3-E23BFBF5FE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193904E3-A206-4861-BCD3-E23BFBF5FE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193904E3-A206-4861-BCD3-E23BFBF5FE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193904E3-A206-4861-BCD3-E23BFBF5FE1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
